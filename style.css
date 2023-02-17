@@ -1,0 +1,42 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/halftone-dots-background-with-circles_23-2148907693.jpg?w=900&t=st=1676653713~exp=1676654313~hmac=a34b074d7e283850bf9e463b709807cb633ae73e546dd9af5304a9f8ea2e161c");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.box-button {
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+#start-button {
+    background: #00ED4D;
+    border: 1px;
+    border-radius: 12px;
+    color: rgb(32, 30, 30);
+    font-size: larger;
+    padding: 15px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#start-button:hover{
+    scale: 0.98;
+    transition: 0.5s;
+}
+
+#output {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Se a div output estiver vazia */
+#output:empty{
+    display: none;
+    padding: 0px;
+}
