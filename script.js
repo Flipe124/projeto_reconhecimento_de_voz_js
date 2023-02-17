@@ -10,7 +10,7 @@ if ("webkitSpeechRecognition" in window) {
     var startButton = document.getElementById("start-button");
 
     var output = document.getElementById("output");
-    
+
     // Inicia o recognition ao clicar no botáo
     startButton.addEventListener('click', function () {
         recognition.start();
@@ -19,7 +19,7 @@ if ("webkitSpeechRecognition" in window) {
     recognition.onresult = function (event) {
         var transcript = "";
 
-        for(var i = event.resultIndex; i < event.results.length; i++){
+        for (var i = event.resultIndex; i < event.results.length; i++) {
             transcript += event.results[i][0].transcript;
         }
 
@@ -30,7 +30,7 @@ if ("webkitSpeechRecognition" in window) {
     recognition.onerror = function (event) {
         console.log('Error: ' + event.error);
     }
-    
+
 } else {
     console.log("Seu navegador não suporta a API de reconhecimento de voz!")
 }

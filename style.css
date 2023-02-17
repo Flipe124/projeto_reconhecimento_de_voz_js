@@ -22,7 +22,7 @@ body {
     margin-top: 20px;
 }
 
-#start-button:hover{
+#start-button:hover {
     scale: 0.98;
     transition: 0.5s;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 /* Se a div output estiver vazia */
-#output:empty{
+#output:empty {
     display: none;
     padding: 0px;
 }
