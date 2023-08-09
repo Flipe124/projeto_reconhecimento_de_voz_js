@@ -1,5 +1,7 @@
 # <b>PROJETO: RECONHECIMENTO DE VOZ COM JS</b>
 
+<img src="./img/interface.png" width="600px">
+
 ![Linguagens](https://img.shields.io/badge/-Linguagens-blue?style=for-the-badge)
 
 - HTML;
